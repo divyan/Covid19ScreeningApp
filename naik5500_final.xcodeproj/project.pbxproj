@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC8121CB30128316F5B18E1 /* Pods_naik5500_final.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A84763F61F2631D6943AC /* Pods_naik5500_final.framework */; };
+		5A22AA192628B30500EC8A89 /* BeginQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A22AA182628B30500EC8A89 /* BeginQuizViewController.swift */; };
+		5A22AA1E2628B36700EC8A89 /* ScreeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A22AA1D2628B36700EC8A89 /* ScreeningViewController.swift */; };
+		5A22AA232628B3A000EC8A89 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A22AA222628B3A000EC8A89 /* SummaryViewController.swift */; };
+		5A22AA282628B42100EC8A89 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A22AA272628B42100EC8A89 /* ResultsViewController.swift */; };
+		5A49FD39262156F900B3EE2C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A49FD38262156F900B3EE2C /* GoogleService-Info.plist */; };
+		5A49FDC02621741C00B3EE2C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A49FDBF2621741C00B3EE2C /* Constants.swift */; };
+		5A49FDE12624FECE00B3EE2C /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A49FDE02624FECE00B3EE2C /* HistoryViewController.swift */; };
+		5A49FDE6262511B700B3EE2C /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A49FDE5262511B700B3EE2C /* CustomTableViewCell.swift */; };
+		5A49FDED26263FD400B3EE2C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A49FDEC26263FD300B3EE2C /* Question.swift */; };
+		5A76263F261FD03600B412D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A76263E261FD03600B412D2 /* AppDelegate.swift */; };
+		5A762641261FD03600B412D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A762640261FD03600B412D2 /* SceneDelegate.swift */; };
+		5A762643261FD03600B412D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A762642261FD03600B412D2 /* ViewController.swift */; };
+		5A762646261FD03600B412D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A762644261FD03600B412D2 /* Main.storyboard */; };
+		5A762648261FD03800B412D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A762647261FD03800B412D2 /* Assets.xcassets */; };
+		5A76264B261FD03800B412D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A762649261FD03800B412D2 /* LaunchScreen.storyboard */; };
+		5A762656261FD03800B412D2 /* naik5500_finalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A762655261FD03800B412D2 /* naik5500_finalTests.swift */; };
+		5A762661261FD03800B412D2 /* naik5500_finalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A762660261FD03800B412D2 /* naik5500_finalUITests.swift */; };
+		5A762672261FD25100B412D2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A762671261FD25100B412D2 /* SignUpViewController.swift */; };
+		5A762677261FD26100B412D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A762676261FD26100B412D2 /* LoginViewController.swift */; };
+		5A76267C261FD40200B412D2 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A76267B261FD40200B412D2 /* DashboardViewController.swift */; };
+		E13B3F245A2D7A47B84078C4 /* Pods_naik5500_final_naik5500_finalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FEA91442A0F9417E0612AE /* Pods_naik5500_final_naik5500_finalUITests.framework */; };
+		FAAFD64674DEF463943DE786 /* Pods_naik5500_finalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9527B76005A82AD95B87C41 /* Pods_naik5500_finalTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A762652261FD03800B412D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A762633261FD03600B412D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A76263A261FD03600B412D2;
+			remoteInfo = naik5500_final;
+		};
+		5A76265D261FD03800B412D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A762633261FD03600B412D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A76263A261FD03600B412D2;
+			remoteInfo = naik5500_final;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06BA533178F558A8932A5307 /* Pods-naik5500_finalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-naik5500_finalTests.release.xcconfig"; path = "Target Support Files/Pods-naik5500_finalTests/Pods-naik5500_finalTests.release.xcconfig"; sourceTree = "<group>"; };
+		394DCDB95B342B548D0A276E /* Pods-naik5500_finalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-naik5500_finalTests.debug.xcconfig"; path = "Target Support Files/Pods-naik5500_finalTests/Pods-naik5500_finalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52FEA91442A0F9417E0612AE /* Pods_naik5500_final_naik5500_finalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_naik5500_final_naik5500_finalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A22AA182628B30500EC8A89 /* BeginQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginQuizViewController.swift; sourceTree = "<group>"; };
+		5A22AA1D2628B36700EC8A89 /* ScreeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreeningViewController.swift; sourceTree = "<group>"; };
+		5A22AA222628B3A000EC8A89 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		5A22AA272628B42100EC8A89 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		5A49FD38262156F900B3EE2C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5A49FDBF2621741C00B3EE2C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5A49FDE02624FECE00B3EE2C /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		5A49FDE5262511B700B3EE2C /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		5A49FDEC26263FD300B3EE2C /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		5A76263B261FD03600B412D2 /* naik5500_final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = naik5500_final.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A76263E261FD03600B412D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A762640261FD03600B412D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A762642261FD03600B412D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A762645261FD03600B412D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A762647261FD03800B412D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A76264A261FD03800B412D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A76264C261FD03800B412D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A762651261FD03800B412D2 /* naik5500_finalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = naik5500_finalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A762655261FD03800B412D2 /* naik5500_finalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naik5500_finalTests.swift; sourceTree = "<group>"; };
+		5A762657261FD03800B412D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A76265C261FD03800B412D2 /* naik5500_finalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = naik5500_finalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A762660261FD03800B412D2 /* naik5500_finalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naik5500_finalUITests.swift; sourceTree = "<group>"; };
+		5A762662261FD03800B412D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A762671261FD25100B412D2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5A762676261FD26100B412D2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5A76267B261FD40200B412D2 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		6C305F51ADE1754F18422F06 /* Pods-naik5500_final.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-naik5500_final.debug.xcconfig"; path = "Target Support Files/Pods-naik5500_final/Pods-naik5500_final.debug.xcconfig"; sourceTree = "<group>"; };
+		A00A84763F61F2631D6943AC /* Pods_naik5500_final.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_naik5500_final.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A296B662060CA48AB2D265DE /* Pods-naik5500_final-naik5500_finalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-naik5500_final-naik5500_finalUITests.release.xcconfig"; path = "Target Support Files/Pods-naik5500_final-naik5500_finalUITests/Pods-naik5500_final-naik5500_finalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B724FCDC4A45BE5FF134D5D1 /* Pods-naik5500_final-naik5500_finalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-naik5500_final-naik5500_finalUITests.debug.xcconfig"; path = "Target Support Files/Pods-naik5500_final-naik5500_finalUITests/Pods-naik5500_final-naik5500_finalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA2FCEABDC02BC4F347EBD0A /* Pods-naik5500_final.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-naik5500_final.release.xcconfig"; path = "Target Support Files/Pods-naik5500_final/Pods-naik5500_final.release.xcconfig"; sourceTree = "<group>"; };
+		F9527B76005A82AD95B87C41 /* Pods_naik5500_finalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_naik5500_finalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A762638261FD03600B412D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC8121CB30128316F5B18E1 /* Pods_naik5500_final.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A76264E261FD03800B412D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAFD64674DEF463943DE786 /* Pods_naik5500_finalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A762659261FD03800B412D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13B3F245A2D7A47B84078C4 /* Pods_naik5500_final_naik5500_finalUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A49FDBE2621740B00B3EE2C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5A49FDBF2621741C00B3EE2C /* Constants.swift */,
+				5A49FDE5262511B700B3EE2C /* CustomTableViewCell.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5A49FDEB26263FB600B3EE2C /* CovidQuestions */ = {
+			isa = PBXGroup;
+			children = (
+				5A49FDEC26263FD300B3EE2C /* Question.swift */,
+			);
+			path = CovidQuestions;
+			sourceTree = "<group>";
+		};
+		5A762632261FD03600B412D2 = {
+			isa = PBXGroup;
+			children = (
+				5A76263D261FD03600B412D2 /* naik5500_final */,
+				5A762654261FD03800B412D2 /* naik5500_finalTests */,
+				5A76265F261FD03800B412D2 /* naik5500_finalUITests */,
+				5A76263C261FD03600B412D2 /* Products */,
+				AA37797768E79A69B1470F4E /* Pods */,
+				D4C5D74F1C2D2543F4BF17A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A76263C261FD03600B412D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A76263B261FD03600B412D2 /* naik5500_final.app */,
+				5A762651261FD03800B412D2 /* naik5500_finalTests.xctest */,
+				5A76265C261FD03800B412D2 /* naik5500_finalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A76263D261FD03600B412D2 /* naik5500_final */ = {
+			isa = PBXGroup;
+			children = (
+				5A49FDEB26263FB600B3EE2C /* CovidQuestions */,
+				5A49FDBE2621740B00B3EE2C /* Helpers */,
+				5A762680261FD42200B412D2 /* ViewControllers */,
+				5A76263E261FD03600B412D2 /* AppDelegate.swift */,
+				5A762640261FD03600B412D2 /* SceneDelegate.swift */,
+				5A762642261FD03600B412D2 /* ViewController.swift */,
+				5A762644261FD03600B412D2 /* Main.storyboard */,
+				5A762647261FD03800B412D2 /* Assets.xcassets */,
+				5A762649261FD03800B412D2 /* LaunchScreen.storyboard */,
+				5A49FD38262156F900B3EE2C /* GoogleService-Info.plist */,
+				5A76264C261FD03800B412D2 /* Info.plist */,
+			);
+			path = naik5500_final;
+			sourceTree = "<group>";
+		};
+		5A762654261FD03800B412D2 /* naik5500_finalTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A762655261FD03800B412D2 /* naik5500_finalTests.swift */,
+				5A762657261FD03800B412D2 /* Info.plist */,
+			);
+			path = naik5500_finalTests;
+			sourceTree = "<group>";
+		};
+		5A76265F261FD03800B412D2 /* naik5500_finalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A762660261FD03800B412D2 /* naik5500_finalUITests.swift */,
+				5A762662261FD03800B412D2 /* Info.plist */,
+			);
+			path = naik5500_finalUITests;
+			sourceTree = "<group>";
+		};
+		5A762680261FD42200B412D2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A762676261FD26100B412D2 /* LoginViewController.swift */,
+				5A762671261FD25100B412D2 /* SignUpViewController.swift */,
+				5A76267B261FD40200B412D2 /* DashboardViewController.swift */,
+				5A49FDE02624FECE00B3EE2C /* HistoryViewController.swift */,
+				5A22AA182628B30500EC8A89 /* BeginQuizViewController.swift */,
+				5A22AA1D2628B36700EC8A89 /* ScreeningViewController.swift */,
+				5A22AA222628B3A000EC8A89 /* SummaryViewController.swift */,
+				5A22AA272628B42100EC8A89 /* ResultsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AA37797768E79A69B1470F4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C305F51ADE1754F18422F06 /* Pods-naik5500_final.debug.xcconfig */,
+				EA2FCEABDC02BC4F347EBD0A /* Pods-naik5500_final.release.xcconfig */,
+				B724FCDC4A45BE5FF134D5D1 /* Pods-naik5500_final-naik5500_finalUITests.debug.xcconfig */,
+				A296B662060CA48AB2D265DE /* Pods-naik5500_final-naik5500_finalUITests.release.xcconfig */,
+				394DCDB95B342B548D0A276E /* Pods-naik5500_finalTests.debug.xcconfig */,
+				06BA533178F558A8932A5307 /* Pods-naik5500_finalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D4C5D74F1C2D2543F4BF17A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A00A84763F61F2631D6943AC /* Pods_naik5500_final.framework */,
+				52FEA91442A0F9417E0612AE /* Pods_naik5500_final_naik5500_finalUITests.framework */,
+				F9527B76005A82AD95B87C41 /* Pods_naik5500_finalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A76263A261FD03600B412D2 /* naik5500_final */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A762665261FD03800B412D2 /* Build configuration list for PBXNativeTarget "naik5500_final" */;
+			buildPhases = (
+				6634AE12D5C546ED027FBE50 /* [CP] Check Pods Manifest.lock */,
+				5A762637261FD03600B412D2 /* Sources */,
+				5A762638261FD03600B412D2 /* Frameworks */,
+				5A762639261FD03600B412D2 /* Resources */,
+				DFFA5579D082B4E6ED044F91 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = naik5500_final;
+			productName = naik5500_final;
+			productReference = 5A76263B261FD03600B412D2 /* naik5500_final.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A762650261FD03800B412D2 /* naik5500_finalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A762668261FD03800B412D2 /* Build configuration list for PBXNativeTarget "naik5500_finalTests" */;
+			buildPhases = (
+				92B56F65C16120D04DA34AEC /* [CP] Check Pods Manifest.lock */,
+				5A76264D261FD03800B412D2 /* Sources */,
+				5A76264E261FD03800B412D2 /* Frameworks */,
+				5A76264F261FD03800B412D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A762653261FD03800B412D2 /* PBXTargetDependency */,
+			);
+			name = naik5500_finalTests;
+			productName = naik5500_finalTests;
+			productReference = 5A762651261FD03800B412D2 /* naik5500_finalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A76265B261FD03800B412D2 /* naik5500_finalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A76266B261FD03800B412D2 /* Build configuration list for PBXNativeTarget "naik5500_finalUITests" */;
+			buildPhases = (
+				871FCF6A8CEC624566109169 /* [CP] Check Pods Manifest.lock */,
+				5A762658261FD03800B412D2 /* Sources */,
+				5A762659261FD03800B412D2 /* Frameworks */,
+				5A76265A261FD03800B412D2 /* Resources */,
+				DA64AC7029043056D4FD7870 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A76265E261FD03800B412D2 /* PBXTargetDependency */,
+			);
+			name = naik5500_finalUITests;
+			productName = naik5500_finalUITests;
+			productReference = 5A76265C261FD03800B412D2 /* naik5500_finalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A762633261FD03600B412D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					5A76263A261FD03600B412D2 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					5A762650261FD03800B412D2 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5A76263A261FD03600B412D2;
+					};
+					5A76265B261FD03800B412D2 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5A76263A261FD03600B412D2;
+					};
+				};
+			};
+			buildConfigurationList = 5A762636261FD03600B412D2 /* Build configuration list for PBXProject "naik5500_final" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A762632261FD03600B412D2;
+			productRefGroup = 5A76263C261FD03600B412D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A76263A261FD03600B412D2 /* naik5500_final */,
+				5A762650261FD03800B412D2 /* naik5500_finalTests */,
+				5A76265B261FD03800B412D2 /* naik5500_finalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A762639261FD03600B412D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A76264B261FD03800B412D2 /* LaunchScreen.storyboard in Resources */,
+				5A49FD39262156F900B3EE2C /* GoogleService-Info.plist in Resources */,
+				5A762648261FD03800B412D2 /* Assets.xcassets in Resources */,
+				5A762646261FD03600B412D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A76264F261FD03800B412D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A76265A261FD03800B412D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6634AE12D5C546ED027FBE50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-naik5500_final-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		871FCF6A8CEC624566109169 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-naik5500_final-naik5500_finalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92B56F65C16120D04DA34AEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-naik5500_finalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA64AC7029043056D4FD7870 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-naik5500_final-naik5500_finalUITests/Pods-naik5500_final-naik5500_finalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-naik5500_final-naik5500_finalUITests/Pods-naik5500_final-naik5500_finalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-naik5500_final-naik5500_finalUITests/Pods-naik5500_final-naik5500_finalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFFA5579D082B4E6ED044F91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-naik5500_final/Pods-naik5500_final-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-naik5500_final/Pods-naik5500_final-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-naik5500_final/Pods-naik5500_final-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A762637261FD03600B412D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A49FDE6262511B700B3EE2C /* CustomTableViewCell.swift in Sources */,
+				5A22AA232628B3A000EC8A89 /* SummaryViewController.swift in Sources */,
+				5A22AA1E2628B36700EC8A89 /* ScreeningViewController.swift in Sources */,
+				5A22AA282628B42100EC8A89 /* ResultsViewController.swift in Sources */,
+				5A762643261FD03600B412D2 /* ViewController.swift in Sources */,
+				5A76267C261FD40200B412D2 /* DashboardViewController.swift in Sources */,
+				5A76263F261FD03600B412D2 /* AppDelegate.swift in Sources */,
+				5A762672261FD25100B412D2 /* SignUpViewController.swift in Sources */,
+				5A49FDED26263FD400B3EE2C /* Question.swift in Sources */,
+				5A22AA192628B30500EC8A89 /* BeginQuizViewController.swift in Sources */,
+				5A49FDC02621741C00B3EE2C /* Constants.swift in Sources */,
+				5A762677261FD26100B412D2 /* LoginViewController.swift in Sources */,
+				5A762641261FD03600B412D2 /* SceneDelegate.swift in Sources */,
+				5A49FDE12624FECE00B3EE2C /* HistoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A76264D261FD03800B412D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A762656261FD03800B412D2 /* naik5500_finalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A762658261FD03800B412D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A762661261FD03800B412D2 /* naik5500_finalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A762653261FD03800B412D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A76263A261FD03600B412D2 /* naik5500_final */;
+			targetProxy = 5A762652261FD03800B412D2 /* PBXContainerItemProxy */;
+		};
+		5A76265E261FD03800B412D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A76263A261FD03600B412D2 /* naik5500_final */;
+			targetProxy = 5A76265D261FD03800B412D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A762644261FD03600B412D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A762645261FD03600B412D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A762649261FD03800B412D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A76264A261FD03800B412D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A762663261FD03800B412D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A762664261FD03800B412D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A762666261FD03800B412D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C305F51ADE1754F18422F06 /* Pods-naik5500_final.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = naik5500_final/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naik5500-a06.naik5500-final";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A762667261FD03800B412D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA2FCEABDC02BC4F347EBD0A /* Pods-naik5500_final.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = naik5500_final/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naik5500-a06.naik5500-final";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A762669261FD03800B412D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394DCDB95B342B548D0A276E /* Pods-naik5500_finalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = naik5500_finalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naik5500-a06.naik5500-finalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/naik5500_final.app/naik5500_final";
+			};
+			name = Debug;
+		};
+		5A76266A261FD03800B412D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06BA533178F558A8932A5307 /* Pods-naik5500_finalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = naik5500_finalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naik5500-a06.naik5500-finalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/naik5500_final.app/naik5500_final";
+			};
+			name = Release;
+		};
+		5A76266C261FD03800B412D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B724FCDC4A45BE5FF134D5D1 /* Pods-naik5500_final-naik5500_finalUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = naik5500_finalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naik5500-a06.naik5500-finalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = naik5500_final;
+			};
+			name = Debug;
+		};
+		5A76266D261FD03800B412D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A296B662060CA48AB2D265DE /* Pods-naik5500_final-naik5500_finalUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = naik5500_finalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naik5500-a06.naik5500-finalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = naik5500_final;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A762636261FD03600B412D2 /* Build configuration list for PBXProject "naik5500_final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A762663261FD03800B412D2 /* Debug */,
+				5A762664261FD03800B412D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A762665261FD03800B412D2 /* Build configuration list for PBXNativeTarget "naik5500_final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A762666261FD03800B412D2 /* Debug */,
+				5A762667261FD03800B412D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A762668261FD03800B412D2 /* Build configuration list for PBXNativeTarget "naik5500_finalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A762669261FD03800B412D2 /* Debug */,
+				5A76266A261FD03800B412D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A76266B261FD03800B412D2 /* Build configuration list for PBXNativeTarget "naik5500_finalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A76266C261FD03800B412D2 /* Debug */,
+				5A76266D261FD03800B412D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A762633261FD03600B412D2 /* Project object */;
+}
